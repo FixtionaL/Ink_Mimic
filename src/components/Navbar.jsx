@@ -17,7 +17,7 @@ const Navbar = () => {
       </Link>
       <Link to="/try-now" className="try-now">
         {" "}
-        Try Now ↗️
+        Try Now ↗
       </Link>
     </div>
   );
