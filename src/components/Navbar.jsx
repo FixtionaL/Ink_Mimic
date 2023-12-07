@@ -11,7 +11,7 @@ const Navbar = () => {
         {" "}
         ABOUT
       </Link>
-      <Link to="/contact" className="others">
+      <Link to="/model" className="others">
         {" "}
         MODEL
       </Link>

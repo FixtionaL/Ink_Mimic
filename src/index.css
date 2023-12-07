@@ -25,7 +25,7 @@ video {
 }
 
 .navbar {
-  position:fixed;
+  position:absolute;
   top: 0;
   right: 0;
   padding-top: 2%;
@@ -40,7 +40,7 @@ video {
 }
 
 .others {
-  color: rgb(222, 222, 222); /* Text color for the links */
+  color: rgb(162, 159, 159); /* Text color for the links */
   text-decoration: none;
   margin: 8px 20px;
   padding-inline: 10px;
@@ -83,8 +83,8 @@ video {
 }
 
 .try-now {
-  border: 1px solid rgb(242, 239, 239); 
-  color: rgb(222, 222, 222); /* Text color for the links */
+  border: 1px solid rgb(162, 159, 159); 
+  color: rgb(162, 159, 159); /* Text color for the links */
   text-decoration: none;
   margin: 8px 20px;
   padding: 10px 20px; 
@@ -138,9 +138,9 @@ video {
 .header {
   overflow: hidden;
   margin: 0 auto;
-  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size:12ch;
-  font-weight: bold;
+  font-weight:500;
   color: rgb(136, 141, 141);
   white-space: nowrap;
   /* border-right: 0.05em solid rgb(136, 141, 141); */
@@ -162,7 +162,7 @@ video {
 
 .delay-1500 {
   font-size: 2ch;
-  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   color:rgb(3, 3, 3);
   animation-name: move;
   animation-delay: 150ms;
@@ -177,31 +177,18 @@ video {
 
 .image1 {
   object-fit: cover;
-  position: fixed;
+  /* position:fixed; */
   height: 100vh;
-  filter: brightness(90%);
+  filter: brightness(50%);
 }
+
 .parallax_con {
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   height: 100vh;
   width: 100%;
-}
-.img1_text {
-  background-color: beige;
-  text-transform: uppercase;
-  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 10px;
-}
-h3 {
-  text-transform: uppercase;
-  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
-  font-size: 1.5rem;
-  /* letter-spacing: 10px; */
-  text-align: center;
 }
 
 .info {
@@ -209,3 +196,169 @@ h3 {
   padding: 3rem 1rem;
   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
 }
+.img1_title{
+ position: fixed;
+ margin-right:60%;
+ margin-left: 5%;
+ margin-bottom: 20%;
+ 
+}
+.img1_delay-1500 {
+  font-size: 1.8ch;
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  color:rgb(249, 249, 249);
+  animation-name: move;
+  animation-delay: 150ms;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+  position: relative;
+  word-spacing:5px;
+  
+}
+.header_img1 {
+  overflow: hidden;
+  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  font-size:12ch;
+  /* font-weight: bold; */
+  color: azure;
+  
+}
+
+.img1_title2 {
+  position: fixed;
+ margin-left:60%;
+ margin-right: 15%;
+ margin-top: 25%;
+}
+
+.header2_img1 {
+  overflow: hidden;
+  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  font-size:12ch;
+  /* font-weight: bold; */
+  color: rgb(45, 47, 47);
+}
+
+.img1_delay-1500-2 {
+  font-size: 1.8ch;
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  color:rgb(41, 40, 40);
+  animation-name: move;
+  animation-delay: 1000ms;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+  position: relative;
+  /* text-align: center; */
+}
+
+.img2_title{
+  position: fixed;
+  margin-left:60%;
+  margin-right: 20%;
+  margin-bottom: 20%;
+  
+ }
+ .img2_delay-1500 {
+   font-size: 1.8ch;
+   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+   color:rgb(27, 26, 26);
+   animation-name: move;
+   animation-delay: 1000ms;
+   animation-duration: 2s;
+   animation-fill-mode:forwards;
+   position: relative;
+   word-spacing:5px;
+   
+ }
+ .header_img2 {
+   overflow: hidden;
+   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+   font-size:12ch;
+   /* font-weight: bold; */
+   color: rgb(47, 46, 46);
+   
+ }
+ 
+ .img2_title2 {
+   position: fixed;
+  margin-right:60%;
+  margin-left: 10%;
+  margin-top: 25%;
+ }
+ 
+ .header2_img2 {
+   overflow: hidden;
+   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+   font-size:12ch;
+   /* font-weight: bold; */
+   color: azure;
+ }
+ 
+ .img2_delay-1500-2 {
+   font-size: 1.8ch;
+   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+   color:rgb(240, 234, 234);
+   animation-name: move;
+   animation-delay: 150ms;
+   animation-duration: 2s;
+   animation-fill-mode:forwards;
+   position: relative;
+   /* text-align: center; */
+ }
+
+ .img3_title{
+  position: fixed;
+  margin-left:60%;
+  margin-right: 20%;
+  margin-bottom: 20%;
+  
+ }
+ .img3_delay-1500 {
+   font-size: 1.8ch;
+   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+   color:white;
+   animation-name: move;
+   animation-delay: 150ms;
+   animation-duration: 2s;
+   animation-fill-mode:forwards;
+   position: relative;
+   word-spacing:5px;
+   
+ }
+ .header_img3 {
+   overflow: hidden;
+   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+   font-size:12ch;
+   /* font-weight: bold; */
+   color: rgb(223, 226, 226);
+   
+ }
+ 
+ .img3_title2 {
+   position: fixed;
+  margin-left:40%;
+  margin-right: 20%;
+  /* margin-bottom: 30%; */
+  margin-top: 30%;
+ }
+ 
+ .header2_img3 {
+   overflow: hidden;
+   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+   font-size:12ch;
+   /* font-weight: bold; */
+   color: azure;
+ }
+ 
+ .img3_delay-1500-2 {
+   font-size: 1.8ch;
+   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+   color:whitesmoke;
+   animation-name: move;
+   animation-delay: 150ms;
+   animation-duration: 2s;
+   animation-fill-mode:forwards;
+   position: relative;
+   text-align: left;
+ }
+
