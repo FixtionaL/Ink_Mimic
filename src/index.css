@@ -31,42 +31,110 @@ video {
   padding-top: 2%;
   padding-right: 2%;
   /* background-color: rgba(0, 0, 0, 0.5);  */
-  display: inline;
+  display: flex;
   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  place-items: center;
+  /* width:100vh; */
   /* color:rgb(175, 178, 178); */
 
 }
 
-.navbar a {
-  color: rgb(168, 169, 169); /* Text color for the links */
+.others {
+  color: rgb(222, 222, 222); /* Text color for the links */
   text-decoration: none;
   margin: 8px 20px;
-  transition: transform 0.3s;
+  padding-inline: 10px;
+}
+.others {
+  background-image: linear-gradient(
+    to right,
+    #656869,
+    #64686a 50%,
+    rgb(252, 250, 250) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-in-out;
 }
 
-.navbar a.try-now {
-  border: 1px solid rgb(192, 188, 188); 
+.others:before {
+  content: '';
+  /* background: whitesmoke; */
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.5s ease-in-out;
+  transition: transform(0.5s);
+}
+
+.others:hover {
+ background-position: 0;
+ transform: scale(1.1);
+}
+
+.others:hover::before {
+  width:100%;
+}
+
+.try-now {
+  border: 1px solid rgb(242, 239, 239); 
+  color: rgb(222, 222, 222); /* Text color for the links */
+  text-decoration: none;
+  margin: 8px 20px;
   padding: 10px 20px; 
+  
 }
 
-.navbar a.hover {
-  padding: 10px 20px; 
-  transition: scale(1.2);
+.try-now {
+  background-image: linear-gradient(
+    to right,
+    #656869,
+    #64686a 50%,
+    rgb(252, 250, 250) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-in-out;
 }
 
-.logo-container {
-  float: left; /* Adjust spacing between logo and other links */
+.try-now:before {
+  content: '';
+  /* background: whitesmoke; */
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.5s ease-in-out;
+  transition: transform(0.5s);
 }
 
-.logo {
-  height: 15px; /* Adjust the height of the logo as needed */
-  /* Add any additional styles for the logo */
+.try-now:hover {
+ background-position: 0;
+ transform: scale(1.1);
 }
+
+.try-now:hover::before {
+  width:100%;
+}
+
+
 .title {
  position: fixed;
  margin-top: 30%;
  margin-left: 55%;
 }
+
 .header {
   overflow: hidden;
   margin: 0 auto;
@@ -111,7 +179,7 @@ video {
   object-fit: cover;
   position: fixed;
   height: 100vh;
-  filter: brightness(30%);
+  filter: brightness(90%);
 }
 .parallax_con {
   display: flex;
