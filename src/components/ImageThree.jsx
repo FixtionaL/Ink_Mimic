@@ -15,13 +15,13 @@ const ImageThree = () => (
       <div className="img3_title2">
         <div className="header2_img3">Why?...</div>
         <div class="img3_delay-1500-2">
-        <b>Personalized Style Replication:</b> Tailor the level of imitation to match your preferences.
+         Tailor the level of imitation to match your preferences.
         <br></br>
         <br></br>
-        <b>Limitless Inspiration:</b> Explore a diverse array of authors and genres to fuel your creativity.
+         Explore a diverse array of authors and genres to fuel your creativity.
         <br></br>
         <br></br>
-        <b>Educational Excellence:</b> Ideal for students studying literature, offering a hands-on approach to understanding writing styles.
+         Ideal for students studying literature, offering a hands-on approach to understanding writing styles.
          </div>
       </div>
   </Parallax>
