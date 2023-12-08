@@ -396,8 +396,8 @@ video {
  }
  .header_model {
    overflow: hidden;
-   font-family: 'Roboto', sans-serif;
-   /* font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif; */
+   /* font-family: 'Roboto', sans-serif; */
+   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
    font-size:12ch;
    /* font-weight: bold; */
    color: grey;
@@ -414,7 +414,8 @@ video {
  
  .header2_model {
    overflow: hidden;
-   font-family: 'Roboto', sans-serif;
+   /* font-family: 'Roboto', sans-serif; */
+   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
    font-size:12ch;
    /* font-weight: bold; */
    color: grey;
