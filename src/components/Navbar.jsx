@@ -13,7 +13,7 @@ const Navbar = () => {
       </Link>
       <Link to="/model" className="others">
         {" "}
-        MODEL
+        PLANS
       </Link>
       <Link to="/try-now" className="try-now">
         {" "}

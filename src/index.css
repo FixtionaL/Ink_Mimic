@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -14,7 +15,8 @@ video {
   width:100%;
   height: 100%;
   object-fit: cover;
-  filter:brightness(25%);
+  filter:brightness(40%);
+  /* filter:grayscale(0.5); */
   position: fixed;
   /* right: 0;
   bottom: 0; */
@@ -40,7 +42,7 @@ video {
 }
 
 .others {
-  color: rgb(162, 159, 159); /* Text color for the links */
+  color: rgb(188, 186, 186); /* Text color for the links */
   text-decoration: none;
   margin: 8px 20px;
   padding-inline: 10px;
@@ -50,7 +52,7 @@ video {
     to right,
     #656869,
     #64686a 50%,
-    rgb(252, 250, 250) 50%
+    rgb(186, 184, 184) 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -96,7 +98,7 @@ video {
     to right,
     #656869,
     #64686a 50%,
-    rgb(252, 250, 250) 50%
+    rgb(184, 184, 184) 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -139,9 +141,10 @@ video {
   overflow: hidden;
   margin: 0 auto;
   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-size:12ch;
   font-weight:500;
-  color: rgb(136, 141, 141);
+  color: rgb(56, 53, 53);
   white-space: nowrap;
   /* border-right: 0.05em solid rgb(136, 141, 141); */
   animation: typing 2.5s steps(100, end), blink-caret 2s step-end infinite;
@@ -162,8 +165,9 @@ video {
 
 .delay-1500 {
   font-size: 2ch;
-  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  color:rgb(3, 3, 3);
+  /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  color:rgb(2, 2, 2);
   animation-name: move;
   animation-delay: 150ms;
   animation-duration: 3s;
@@ -177,9 +181,9 @@ video {
 
 .image1 {
   object-fit: cover;
-  /* position:fixed; */
   height: 100vh;
-  filter: brightness(50%);
+  /* filter: grayscale(0.7); */
+  filter:brightness(60%)
 }
 
 .parallax_con {
@@ -199,13 +203,14 @@ video {
 .img1_title{
  position: fixed;
  margin-right:60%;
- margin-left: 5%;
+ margin-left: 10%;
  margin-bottom: 20%;
  
 }
 .img1_delay-1500 {
   font-size: 1.8ch;
-  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
+  font-family: 'Roboto', sans-serif;
   color:rgb(249, 249, 249);
   animation-name: move;
   animation-delay: 150ms;
@@ -221,7 +226,7 @@ video {
   font-size:12ch;
   /* font-weight: bold; */
   color: azure;
-  
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .img1_title2 {
@@ -236,12 +241,14 @@ video {
   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
   font-size:12ch;
   /* font-weight: bold; */
+  /* font-family: 'Roboto', sans-serif; */
   color: rgb(45, 47, 47);
 }
 
 .img1_delay-1500-2 {
   font-size: 1.8ch;
-  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
   color:rgb(41, 40, 40);
   animation-name: move;
   animation-delay: 1000ms;
@@ -260,7 +267,8 @@ video {
  }
  .img2_delay-1500 {
    font-size: 1.8ch;
-   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+   font-family: 'Roboto', sans-serif;
+   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
    color:rgb(27, 26, 26);
    animation-name: move;
    animation-delay: 1000ms;
@@ -296,8 +304,9 @@ video {
  
  .img2_delay-1500-2 {
    font-size: 1.8ch;
-   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-   color:rgb(240, 234, 234);
+   font-family: 'Roboto', sans-serif;
+   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
+   color:whitesmoke;
    animation-name: move;
    animation-delay: 150ms;
    animation-duration: 2s;
@@ -315,7 +324,8 @@ video {
  }
  .img3_delay-1500 {
    font-size: 1.8ch;
-   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+   font-family: 'Roboto', sans-serif;
+   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
    color:white;
    animation-name: move;
    animation-delay: 150ms;
@@ -338,8 +348,8 @@ video {
    position: fixed;
   margin-left:50%;
   margin-right: 20%;
-  /* margin-bottom: 30%; */
-  margin-top: 30%;
+  margin-top: 28%;
+  margin-bottom: 5%;
  }
  
  .header2_img3 {
@@ -352,7 +362,8 @@ video {
  
  .img3_delay-1500-2 {
    font-size: 1.8ch;
-   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+   font-family: 'Roboto', sans-serif;
+   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
    color:whitesmoke;
    animation-name: move;
    animation-delay: 150ms;
@@ -361,4 +372,134 @@ video {
    position: relative;
    text-align: left;
  }
+
+ .model_title{
+  position: fixed;
+  margin-top: 10%;
+ margin-right:60%;
+ margin-left: 5%;
+ margin-bottom: 20%;
+  
+ }
+ .model_delay-1500 {
+   font-size: 1.8ch;
+   font-family: 'Roboto', sans-serif;
+   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
+   color:whitesmoke;
+   animation-name: move;
+   animation-delay: 150ms;
+   animation-duration: 2s;
+   animation-fill-mode:forwards;
+   position: relative;
+   word-spacing:5px;
+   
+ }
+ .header_model {
+   overflow: hidden;
+   font-family: 'Roboto', sans-serif;
+   /* font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif; */
+   font-size:12ch;
+   /* font-weight: bold; */
+   color: grey;
+   
+ }
+ 
+ .model_title2 {
+  position: fixed;
+  margin-left:60%;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+ }
+ 
+ .header2_model {
+   overflow: hidden;
+   font-family: 'Roboto', sans-serif;
+   font-size:12ch;
+   /* font-weight: bold; */
+   color: grey;
+ }
+ 
+ .model_delay-1500-2 {
+   font-size: 1.8ch;
+   font-family: 'Roboto', sans-serif;
+   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
+   color:whitesmoke;
+   animation-name: move;
+   animation-delay: 150ms;
+   animation-duration: 2s;
+   animation-fill-mode:forwards;
+   position: relative;
+   text-align: left;
+ }
+
+ .background-video {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+
+.left-container{
+  width:50%;
+  margin-left: 10%;
+  color:rgb(205, 195, 182);
+  margin-top: 5%;
+}
+
+.right-container{
+   margin-right: 10%;
+   width:50%;
+    /* max-height: 50vh; */
+   margin-left: 10%;
+   margin-top: 3%;
+  /* background-color: rgb(255, 255, 255); */
+  /* border-radius: 30px; */
+}
+
+.flex-container{
+  display:flex;
+  width:100%;
+  margin-top:10%;
+}
+
+.nn{
+  color:rgb(0, 0, 0);
+}
+
+.out
+{
+  background-color: rgb(255, 37, 37);
+  /* max-width: 200px; */
+  width: 100%;
+  /* margin-left: 20px;
+  padding-right:20px ; */
+  /* padding-right: 30px; */
+  /* margin: 10px; */
+  /* margin-right:75px; */
+background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.putt{
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      background-color: antiquewhite;
+  font-size: smaller;
+  margin-top: 5px;
+}
+
+.info-box
+{
+flex-direction: column;
+}
+ 
 
