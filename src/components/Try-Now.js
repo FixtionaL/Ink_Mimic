@@ -156,9 +156,9 @@ const TryNow = () => {
     // );
   };
 
-  return (
+  return (<>
+   <Navbar />
     <AppContainer>
-      <Navbar />
       <FlexContainer>
         <LeftContainer>
           <TextareaContainer>
@@ -166,17 +166,17 @@ const TryNow = () => {
             <br />
             <Textarea
             style={{marginTop:'20px'}}
-              area-label="maximum height"
-              name="Soft"
-              variant="soft"
-              size="lg"
-              placeholder="Enter Text"
-              required
-              type="text"
-              minRows={3}
-              maxRows={5}
-              value={inputText}
-              onChange={(e) => handleTextChange(e.target.value)}
+            area-label="maximum height"
+            name="Soft"
+            variant="soft"
+            size="lg"
+            placeholder="Enter Text"
+            required
+            type="text"
+            minRows={3}
+            maxRows={5}
+            value={inputText}
+            onChange={(e) => handleTextChange(e.target.value)}
             />
           </TextareaContainer>
           <AuthorsDropdown>
@@ -187,7 +187,7 @@ const TryNow = () => {
               onChange={(e) => handleAuthorChange(e.target.value)}
               displayEmpty
               required
-            >
+              >
               <MenuItem value="" disabled>
                 <em>Select an author</em>
               </MenuItem>
@@ -217,6 +217,7 @@ const TryNow = () => {
         </VideoBackground>
       </FlexContainer>
     </AppContainer>
+  </>
   );
 };
 
