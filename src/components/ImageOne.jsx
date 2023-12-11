@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import img1 from "../assets/aaron-burden-xG8IQMqMITM-unsplash.jpg";
+import img1 from "../assets/aaron-burden-xG8IQMqMITM-unsplash 2.jpg";
 
 const ImageOne = () => (
   <Parallax
@@ -21,6 +21,7 @@ const ImageOne = () => (
       </div>
       <div className="img1_title2">
         <div className="header2_img1">Vision..</div>
+        <br></br>
         <div class="img1_delay-1500-2">
           Enter Ink Mimic, your gateway to literary mastery! We've crafted a
           groundbreaking solution that empowers you to effortlessly absorb,

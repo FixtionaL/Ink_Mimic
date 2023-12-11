@@ -51,6 +51,7 @@ const Model = () => {
             journey.
             <br></br>
             <br></br>
+            <br></br>
             <div>
                 Subscribe to Ink Mimic today and let your creativity soar. Choose
                 your tier, unlock the potential of our platform, and immerse

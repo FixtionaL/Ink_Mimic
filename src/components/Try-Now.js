@@ -22,7 +22,7 @@ const VideoBackground = styled.video`
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  filter: brightness(40%);
+  filter: brightness(15%);
 `;
 
 const FlexContainer = styled.div`
@@ -54,7 +54,6 @@ const TextareaContainer = styled.div`
 `;
 
 const AuthorsDropdown = styled.div`
-  border: 1px solid #000;
   border-radius: 4px;
   margin-top: 40px;
 `;
@@ -98,6 +97,7 @@ const OutputInfoContainer = styled(Paper)`
   overflow-y: scroll;
   overflow-x: hidden;
   margin-top: 10px;
+  opacity:0.2;
 `;
 
 const OutputInfoText = styled(Typography)`
@@ -177,6 +177,9 @@ const TryNow = () => {
             maxRows={5}
             value={inputText}
             onChange={(e) => handleTextChange(e.target.value)}
+            sx={{
+              opacity:0.2,
+            }}
             />
           </TextareaContainer>
           <AuthorsDropdown>
@@ -187,6 +190,9 @@ const TryNow = () => {
               onChange={(e) => handleAuthorChange(e.target.value)}
               displayEmpty
               required
+              sx = {{ 
+                opacity:0.2,
+              }}
               >
               <MenuItem value="" disabled>
                 <em>Select an author</em>

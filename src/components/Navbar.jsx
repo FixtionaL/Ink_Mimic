@@ -5,19 +5,23 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Link to="/" className="others">
-        HOME
+        Home
       </Link>
       <Link to="/about" className="others">
         {" "}
-        ABOUT
+        About
       </Link>
       <Link to="/model" className="others">
         {" "}
-        PLANS
+        Plans
+      </Link>
+      <Link to="/explore" className="others">
+        {" "}
+        Explore
       </Link>
       <Link to="/try-now" className="try-now">
         {" "}
-        Try Now ↗
+        Try Mimic.ai ↗
       </Link>
     </div>
   );

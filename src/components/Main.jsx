@@ -8,8 +8,9 @@ const Home = () => {
       <Navbar />
       <div className="title">
         <div className="header">Ink Mimic!</div>
+        <br></br>
         <div class="delay-1500">
-          Bringing light on the dark corners of your Literary Lustre.
+          Bringing light on the dark corners of your Literary lustre.
         </div>
       </div>
     </div>

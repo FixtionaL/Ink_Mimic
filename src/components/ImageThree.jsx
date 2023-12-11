@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import img3 from "../assets/yannick-pulver-hopX_jpVtRM-unsplash.jpg";
+import img3 from "../assets/yannick-pulver-hopX_jpVtRM-unsplash 2.jpg";
 
 const ImageThree = () => (
   <Parallax
@@ -20,13 +20,13 @@ const ImageThree = () => (
       <div className="header2_img3">Why Us?</div>
       <br></br>
       <div class="img3_delay-1500-2">
-        Tailor the level of imitation to match your preferences.
+       → Tailor the level of imitation to match your preferences.
         <br></br>
         <br></br>
-        Explore a diverse array of authors and genres to fuel your creativity.
+        → Explore a diverse array of authors and genres to fuel your creativity.
         <br></br>
         <br></br>
-        Ideal for students studying literature, offering a hands-on approach to
+        → Ideal for students studying literature, offering a hands-on approach to
         understanding writing styles.
       </div>
     </div>

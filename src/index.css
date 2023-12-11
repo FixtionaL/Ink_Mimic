@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .main {
@@ -15,7 +15,7 @@ video {
   width:100%;
   height: 100%;
   object-fit: cover;
-  filter:brightness(40%);
+  filter:brightness(20%);
   /* filter:grayscale(0.5); */
   position: fixed;
   /* right: 0;
@@ -34,15 +34,18 @@ video {
   padding-right: 2%;
   /* background-color: rgba(0, 0, 0, 0.5);  */
   display: flex;
-  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  /* font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif; */
+  font-family: 'Mulish',sans-serif;
   place-items: center;
+  font-size: 2.5ch;
+  font-weight:lighter;
   /* width:100vh; */
   /* color:rgb(175, 178, 178); */
 
 }
 
 .others {
-  color: rgb(188, 186, 186); /* Text color for the links */
+  color: white; /* Text color for the links */
   text-decoration: none;
   margin: 8px 20px;
   padding-inline: 10px;
@@ -50,9 +53,9 @@ video {
 .others {
   background-image: linear-gradient(
     to right,
-    #656869,
-    #64686a 50%,
-    rgb(186, 184, 184) 50%
+    #4e4f4f,
+    #818383 50%,
+    rgb(253, 252, 252) 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -86,19 +89,21 @@ video {
 
 .try-now {
   border: 1px solid rgb(162, 159, 159); 
-  color: rgb(162, 159, 159); /* Text color for the links */
+  /* color: white;  */
   text-decoration: none;
   margin: 8px 20px;
-  padding: 10px 20px; 
+  padding: 3px 10px; 
+  color:white;
+  border-radius: 2px;
   
 }
 
-.try-now {
+/* .try-now {
   background-image: linear-gradient(
     to right,
-    #656869,
-    #64686a 50%,
-    rgb(184, 184, 184) 50%
+    #4e4f4f,
+    #818383 50%,
+    rgb(253, 252, 252) 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -106,7 +111,7 @@ video {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.5s ease-in-out;
-}
+} */
 
 .try-now:before {
   content: '';
@@ -123,7 +128,9 @@ video {
 
 .try-now:hover {
  background-position: 0;
- transform: scale(1.1);
+ /* transform: scale(1.1); */
+ background-color: azure;
+ color: black;
 }
 
 .try-now:hover::before {
@@ -134,23 +141,23 @@ video {
 .title {
  position: fixed;
  margin-top: 30%;
- margin-left: 55%;
+ margin-left: 35%;
 }
 
 .header {
   overflow: hidden;
-  margin: 0 auto;
-  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 10 auto;
   /* font-family: 'Roboto', sans-serif; */
-  font-size:12ch;
-  font-weight:500;
-  color: rgb(56, 53, 53);
+  font-family: 'Roboto';
+  font-size:13ch;
+  font-weight:bold;
+  color: white;
   white-space: nowrap;
   /* border-right: 0.05em solid rgb(136, 141, 141); */
-  animation: typing 2.5s steps(100, end), blink-caret 2s step-end infinite;
+  animation: typing 2s steps(120, end), blink-caret 2s step-end infinite;
 }
 @keyframes typing {
-  from { width: 0 }
+  from { width: 0}
   to { width: 100% }
 }
 @keyframes blink-caret {
@@ -164,15 +171,17 @@ video {
 }
 
 .delay-1500 {
-  font-size: 2ch;
+  font-size: 3ch;
   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
-  font-family: 'Roboto', sans-serif;
-  color:rgb(2, 2, 2);
+  font-family: 'Roboto';
+  color:rgb(251, 249, 249);
   animation-name: move;
   animation-delay: 150ms;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-fill-mode:forwards;
   position: relative;
+  word-spacing: 2px;
+  font-weight:lighter;
 }
 @keyframes move {
   from { left: 0%; }
@@ -182,8 +191,8 @@ video {
 .image1 {
   object-fit: cover;
   height: 100vh;
-  /* filter: grayscale(0.7); */
-  filter:brightness(60%)
+  filter:brightness(100%)
+  
 }
 
 .parallax_con {
@@ -208,25 +217,23 @@ video {
  
 }
 .img1_delay-1500 {
-  font-size: 1.8ch;
-  /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
-  font-family: 'Roboto', sans-serif;
-  color:rgb(249, 249, 249);
+  font-size: 2.5ch;
+  font-family: 'Mulish',sans-serif;
+  color:white;
   animation-name: move;
   animation-delay: 150ms;
   animation-duration: 2s;
   animation-fill-mode:forwards;
   position: relative;
-  word-spacing:5px;
-  
+  word-spacing: 3px;
+  line-height: 1.5em;
+  font-weight: lighter;
 }
 .header_img1 {
   overflow: hidden;
   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
-  font-size:12ch;
-  /* font-weight: bold; */
-  color: azure;
-  /* font-family: 'Roboto', sans-serif; */
+  font-size:14ch;
+  color:white;
 }
 
 .img1_title2 {
@@ -238,24 +245,25 @@ video {
 
 .header2_img1 {
   overflow: hidden;
-  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
-  font-size:12ch;
+  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Sans-serif;
+  font-size:14ch;
   /* font-weight: bold; */
   /* font-family: 'Roboto', sans-serif; */
-  color: rgb(45, 47, 47);
+  color: white;
 }
 
 .img1_delay-1500-2 {
-  font-size: 1.8ch;
-  font-family: 'Roboto', sans-serif;
-  /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
-  color:rgb(41, 40, 40);
+  font-size: 2.5ch;
+  font-family: 'Mulish',sans-serif;
+  color:white;
   animation-name: move;
-  animation-delay: 1000ms;
+  animation-delay: 150ms;
   animation-duration: 2s;
   animation-fill-mode:forwards;
   position: relative;
-  /* text-align: center; */
+  word-spacing: 3px;
+  line-height: 1.5em;
+  font-weight: lighter;
 }
 
 .img2_title{
@@ -266,24 +274,24 @@ video {
   
  }
  .img2_delay-1500 {
-   font-size: 1.8ch;
-   font-family: 'Roboto', sans-serif;
-   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
-   color:rgb(27, 26, 26);
-   animation-name: move;
-   animation-delay: 1000ms;
-   animation-duration: 2s;
-   animation-fill-mode:forwards;
-   position: relative;
-   word-spacing:5px;
+  font-size: 2.5ch;
+  font-family: 'Mulish',sans-serif;
+  color:white;
+  animation-name: move;
+  animation-delay: 150ms;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+  position: relative;
+  word-spacing: 3px;
+  line-height: 1.5em;
+  font-weight: lighter;
    
  }
  .header_img2 {
-   overflow: hidden;
-   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
-   font-size:12ch;
-   /* font-weight: bold; */
-   color: rgb(47, 46, 46);
+  overflow: hidden;
+  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  font-size:14ch;
+  color:white;
    
  }
  
@@ -295,24 +303,24 @@ video {
  }
  
  .header2_img2 {
-   overflow: hidden;
-   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
-   font-size:12ch;
-   /* font-weight: bold; */
-   color: azure;
+  overflow: hidden;
+  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  font-size:14ch;
+  color:white;
  }
  
  .img2_delay-1500-2 {
-   font-size: 1.8ch;
-   font-family: 'Roboto', sans-serif;
-   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
-   color:whitesmoke;
-   animation-name: move;
-   animation-delay: 150ms;
-   animation-duration: 2s;
-   animation-fill-mode:forwards;
-   position: relative;
-   /* text-align: center; */
+  font-size: 2.5ch;
+  font-family: 'Mulish',sans-serif;
+  color:white;
+  animation-name: move;
+  animation-delay: 150ms;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+  position: relative;
+  word-spacing: 3px;
+  line-height: 1.5em;
+  font-weight: lighter;
  }
 
  .img3_title{
@@ -348,29 +356,29 @@ video {
    position: fixed;
   margin-left:50%;
   margin-right: 20%;
-  margin-top: 28%;
-  margin-bottom: 5%;
+  margin-top: 20%;
+  margin-bottom: 20%;
  }
  
  .header2_img3 {
-   overflow: hidden;
-   font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
-   font-size:12ch;
-   /* font-weight: bold; */
-   color: azure;
+  overflow: hidden;
+  font-family: "Poppins",-apple-system,BlinkMacSystemFont,Roboto,Arial,Sans-serif;
+  font-size:14ch;
+  color:white;
  }
  
  .img3_delay-1500-2 {
-   font-size: 1.8ch;
-   font-family: 'Roboto', sans-serif;
-   /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
-   color:whitesmoke;
-   animation-name: move;
-   animation-delay: 150ms;
-   animation-duration: 2s;
-   animation-fill-mode:forwards;
-   position: relative;
-   text-align: left;
+  font-size: 2.5ch;
+  font-family: 'Mulish',sans-serif;
+  color:white;
+  animation-name: move;
+  animation-delay: 150ms;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+  position: relative;
+  word-spacing: 3px;
+  line-height: 1.5em;
+  font-weight: lighter;
  }
 
  .model_title{
@@ -383,7 +391,7 @@ video {
  }
  .model_delay-1500 {
    font-size: 1.8ch;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto';
    /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
    color:whitesmoke;
    animation-name: move;
@@ -423,7 +431,7 @@ video {
  
  .model_delay-1500-2 {
    font-size: 1.8ch;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto';
    /* font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif; */
    color:whitesmoke;
    animation-name: move;
@@ -432,6 +440,7 @@ video {
    animation-fill-mode:forwards;
    position: relative;
    text-align: left;
+   word-spacing: 2px;
  }
 
  .background-video {
@@ -442,7 +451,7 @@ video {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  filter: brightness(40%);
+  /* filter: brightness(100%); */
 }
 
 .left-container{
