@@ -111,7 +111,7 @@ const TryNow = () => {
   const [selectedAuthor, setSelectedAuthor] = useState('');
   const [outputInfo, setOutputInfo] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  const [showScrollbar, setShowScrollbar] = useState(true);
+  const [ setShowScrollbar] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {

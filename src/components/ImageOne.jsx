@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import img1 from "../assets/aaron-burden-xG8IQMqMITM-unsplash 2.jpg";
+import img1 from "../assets/aaron-burden-xG8IQMqMITM-unsplash.jpg";
 
 const ImageOne = () => (
   <Parallax

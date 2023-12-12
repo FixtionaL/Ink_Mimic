@@ -1,7 +1,7 @@
 import React from "react";
-import ImageOne from "./ImageOne";
-import ImageTwo from "./ImageTwo";
-import ImageThree from "./ImageThree";
+import ImageOne from "./E_One";
+import ImageTwo from "./E_two";
+import ImageThree from "./E_three";
 import Navbar from "./Navbar";
 const Explore = () => {
   return (

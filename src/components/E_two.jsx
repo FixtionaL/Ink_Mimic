@@ -1,7 +1,7 @@
 import { Parallax } from "react-parallax";
-import img2 from "../assets/aaron-burden-y02jEX_B0O0-unsplash 3.jpg";
+import img2 from "../assets/photo-1524311583145-d5593bd3502a_1.jpg";
 
-const ImageTwo = () => (
+const E_two = () => (
   <Parallax
     className="image1"
     blur={{ min: -15, max: 15 }}
@@ -33,4 +33,4 @@ const ImageTwo = () => (
   </Parallax>
 );
 
-export default ImageTwo;
+export default E_two;

@@ -1,5 +1,5 @@
 import React from "react";
-import videoBG from "../assets/pexels-tima-miroshnichenko-6549275 (2160p).mp4";
+import videoBG from "../assets/17_009_04.mp4";
 import Navbar from "./Navbar";
 
 const Model = () => {
