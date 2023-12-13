@@ -17,17 +17,15 @@ const E_three = () => (
       </div> */}
     </div>
     <div className="img3_title2">
-      <div className="header2_img3">Why Us?</div>
+      <div className="header2_img3">Refine..</div>
       <br></br>
       <div class="img3_delay-1500-2">
-       → Tailor the level of imitation to match your preferences.
+        → Seamlessly refine PDF text with user-friendly tools.
         <br></br>
+        <br></br>→ Enhanced teamwork through collaborative annotation features.
         <br></br>
-        → Explore a diverse array of authors and genres to fuel your creativity.
-        <br></br>
-        <br></br>
-        → Ideal for students studying literature, offering a hands-on approach to
-        understanding writing styles.
+        <br></br>→ Transform refined text into the chosen author's distinctive
+        style effortlessly.
       </div>
     </div>
   </Parallax>

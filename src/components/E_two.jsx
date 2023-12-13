@@ -10,23 +10,23 @@ const E_two = () => (
   >
     <div className="parallax_con">
       <div className="img2_title">
-        <div className="header_img2">Offerings..</div>
+        <div className="header_img2">CineQuill..</div>
         <br></br>
         <div class="img2_delay-1500">
-          Ink Mimic employs cutting-edge large language models to analyze the
-          writing styles of the literary giants. From the poetic cadence of
-          Shakespeare to the profound simplicity of Hemingway, our AI seamlessly
-          adapts their unique flair into your writing.{" "}
+          CineQuill blends advanced technology with artistic flair, turning your
+          narrative into a captivating cinematic journey. From smooth
+          transitions to enchanting animations, CineQuill adds a touch of
+          cinematic brilliance to your storytelling.
         </div>
       </div>
       <div className="img2_title2">
-        <div className="header2_img2">VersePlay..</div>
+        <div className="header2_img2">Harmonix..</div>
         <br></br>
         <div class="img2_delay-1500-2">
-          Unleash your creativity without the struggle. Whether you're a budding
-          author seeking inspiration or a seasoned wordsmith wanting to explore
-          new stylistic horizons, Ink Mimic is your ultimate companion on the
-          journey of literary self-discovery.{" "}
+          Harmonix goes beyond typical audio synthesis, infusing vitality into
+          your written expressions. Offering a blend of tones and tempos,
+          Harmonix turns your narrative into an auditory masterpiece, creating a
+          unique and engaging storytelling experience.
         </div>
       </div>
     </div>
