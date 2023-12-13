@@ -6,12 +6,12 @@ import pdfplumber
 app = Flask(__name__)
 CORS(app)
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = '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'
 api_key = OPENAI_API_KEY
 client = OpenAI(api_key=api_key)
 
 def generate_answer(user_input, author, tone):
-    prompt = f"convert the following : {user_input}. into {author} style and the convertion should be in {tone} and just convert don't explain and do one style"
+    prompt = f"convert the following : {user_input}. into {author} style and the convertion should be in {tone} and just convert don't explain and display one style"
     
     response = client.chat.completions.create(
         model="gpt-4",  # Use the appropriate GPT-3 model
