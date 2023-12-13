@@ -7,6 +7,10 @@ const Navbar = () => {
       <Link to="/" className="others">
         Home
       </Link>
+      <Link to="/explore" className="others">
+        {" "}
+        Explore
+      </Link>
       <Link to="/about" className="others">
         {" "}
         About
@@ -14,10 +18,6 @@ const Navbar = () => {
       <Link to="/model" className="others">
         {" "}
         Plans
-      </Link>
-      <Link to="/explore" className="others">
-        {" "}
-        Explore
       </Link>
       <Link to="/try-now" className="try-now">
         {" "}
